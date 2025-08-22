@@ -1,0 +1,524 @@
+{
+  "app": {
+    "title": "AviUtl2 Style Configuration Editor",
+    "description": "Web interface for intuitive editing of AviUtl2's style.conf files with specialized controls for parameter adjustment"
+  },
+  "file": {
+    "load_success": "File loaded successfully",
+    "load_failed": "File loading failed: {error}",
+    "save_success": "File saved: {filename}",
+    "save_failed": "Save failed: {error}",
+    "select_file": "Please select a file",
+    "no_file_selected": "Please select a style.conf file"
+  },
+  "ui": {
+    "tabs": {
+      "font": "📝 Font Settings",
+      "font_description": "### Font Settings - Adjust fonts used in the interface",
+      "color": "🎨 Color Settings",
+      "color_description": "### Color Settings - Adjust interface color theme",
+      "layout": "📐 Layout Settings",
+      "layout_description": "### Layout Settings - Adjust interface size and spacing",
+      "format": "⚙️ Format Settings",
+      "format_description": "### Format Settings - Adjust display format templates"
+    },
+    "buttons": {
+      "load_file": "Load File",
+      "save_config": "Save Configuration"
+    },
+    "labels": {
+      "file_input": "Select style.conf file",
+      "save_filename": "Save filename",
+      "status": "Status",
+      "save_status": "Save Status"
+    },
+    "placeholders": {
+      "save_filename": "Enter filename to save",
+      "other_colors": "Add other color parameters here, one per line, e.g.: Border=909090"
+    }
+  },
+  "font": {
+    "section_name": "Font Settings",
+    "main_settings": "**Main Font Settings**",
+    "editor_settings": "**Editor Font Settings**",
+    "DefaultFamily": {
+      "label": "Default Font",
+      "description": "Default font name used in the interface",
+      "comment": "Standard font name"
+    },
+    "Control": {
+      "label": "Control Font Size",
+      "description": "Font size displayed by controls",
+      "comment": "Standard control font"
+    },
+    "EditControl": {
+      "label": "Edit Box Font",
+      "description": "Font size and name for edit boxes",
+      "comment": "Edit control font ※Monospace recommended"
+    },
+    "PreviewTime": {
+      "label": "Preview Time Font Size",
+      "description": "Font size for time display in preview window",
+      "comment": "Preview time display font"
+    },
+    "LayerObject": {
+      "label": "Layer Object Font Size",
+      "description": "Font size for layer and object editing areas",
+      "comment": "Layer・Object editing section font"
+    },
+    "TimeGauge": {
+      "label": "Time Scale Font Size",
+      "description": "Font size for timeline scale display",
+      "comment": "Frame time gauge font"
+    },
+    "Footer": {
+      "label": "Footer Font Size",
+      "description": "Font size for footer information bar",
+      "comment": "Footer font"
+    },
+    "TextEdit": {
+      "label": "Text Edit Font",
+      "description": "Font size and name for text editor",
+      "comment": "Text edit font ※Monospace recommended"
+    },
+    "Log": {
+      "label": "Log Font",
+      "description": "Font size and name for log window",
+      "comment": "Log font ※Monospace recommended"
+    }
+  },
+  "color": {
+    "section_name": "Color Settings",
+    "main_colors": "**Main Color Parameters** (Using color picker)",
+    "other_colors": "**Other Color Parameters** (Including complex parameters and remaining parameters)",
+    "Background": {
+      "label": "Background Color",
+      "description": "Main interface background color",
+      "comment": "Default background color"
+    },
+    "WindowBorder": {
+      "label": "Window Border Color",
+      "description": "Color of window borders",
+      "comment": "Window border color"
+    },
+    "WindowSeparator": {
+      "label": "Window Separator Color",
+      "description": "Color of separators between windows",
+      "comment": "Window separator background color"
+    },
+    "Footer": {
+      "label": "Footer Background Color",
+      "description": "Background color of footer information bar",
+      "comment": "Footer background color"
+    },
+    "FooterProgress": {
+      "label": "Progress Bar Color",
+      "description": "Color settings for footer progress bar (Format: color1,color2)",
+      "comment": "Footer progress color"
+    },
+    "TitleHeader": {
+      "label": "Title Bar Background Color",
+      "description": "Background color of title bar",
+      "comment": "Title header background color"
+    },
+    "BorderSelect": {
+      "label": "Selected Border Color",
+      "description": "Border color in selected state",
+      "comment": "Border selection color"
+    },
+    "Border": {
+      "label": "Border Color",
+      "description": "Color of normal borders",
+      "comment": "Border color"
+    },
+    "BorderFocus": {
+      "label": "Focus Border Color",
+      "description": "Border color when focused",
+      "comment": "Border focus color"
+    },
+    "Text": {
+      "label": "Text Color",
+      "description": "Color of interface text",
+      "comment": "Text color"
+    },
+    "TextDisable": {
+      "label": "Disabled Text Color",
+      "description": "Color of text in disabled state",
+      "comment": "Text disable color"
+    },
+    "TextSelect": {
+      "label": "Selected Text Color",
+      "description": "Color of text in selected state",
+      "comment": "Text selection color"
+    },
+    "ButtonBody": {
+      "label": "Button Background Color",
+      "description": "Background color of buttons",
+      "comment": "Button body color"
+    },
+    "ButtonBodyHover": {
+      "label": "Button Hover Color",
+      "description": "Color of buttons when mouse hovers",
+      "comment": "Button body color (on mouse hover)"
+    },
+    "ButtonBodyPress": {
+      "label": "Button Press Color",
+      "description": "Color of buttons when mouse pressed",
+      "comment": "Button body color (on mouse press)"
+    },
+    "ButtonBodyDisable": {
+      "label": "Button Disable Color",
+      "description": "Color of buttons in disabled state",
+      "comment": "Button body color (disabled)"
+    },
+    "ButtonBodySelect": {
+      "label": "Button Select Color",
+      "description": "Color of buttons in selected state",
+      "comment": "Button body color (selected)"
+    },
+    "SliderCursor": {
+      "label": "Slider Cursor Color",
+      "description": "Color of slider cursor",
+      "comment": "Slider cursor color"
+    },
+    "TrackBarRange": {
+      "label": "Track Bar Range Color",
+      "description": "Color of track bar range",
+      "comment": "Track bar range color"
+    },
+    "ZoomGauge": {
+      "label": "Zoom Gauge Color",
+      "description": "Color of zoom gauge",
+      "comment": "Zoom gauge color"
+    },
+    "ZoomGaugeHover": {
+      "label": "Zoom Gauge Hover Color",
+      "description": "Color of zoom gauge when mouse hovers",
+      "comment": "Zoom gauge hover color"
+    },
+    "ZoomGaugeOff": {
+      "label": "Zoom Gauge Off Color",
+      "description": "Color of zoom gauge when turned off",
+      "comment": "Zoom gauge off color"
+    },
+    "ZoomGaugeOffHover": {
+      "label": "Zoom Gauge Off Hover Color",
+      "description": "Color of zoom gauge when off and mouse hovers",
+      "comment": "Zoom gauge off hover color"
+    },
+    "FrameRangeSelect": {
+      "label": "Frame Selection Range Color",
+      "description": "Color of frame selection range",
+      "comment": "Frame selection range color"
+    },
+    "FrameRangeOutside": {
+      "label": "Frame Selection Outside Color",
+      "description": "Color outside frame selection range",
+      "comment": "Frame selection outside color"
+    },
+    "FrameCursor": {
+      "label": "Frame Cursor Color",
+      "description": "Color of frame cursor",
+      "comment": "Frame cursor color"
+    },
+    "FrameCursorWide": {
+      "label": "Frame Cursor Wide Color",
+      "description": "Color of wide frame cursor",
+      "comment": "Frame cursor wide color"
+    },
+    "PlayerCursor": {
+      "label": "Player Cursor Color",
+      "description": "Color of player cursor",
+      "comment": "Player cursor color"
+    },
+    "GuideLine": {
+      "label": "Guide Line Color",
+      "description": "Color of guide lines",
+      "comment": "Guide line color"
+    },
+    "Layer": {
+      "label": "Layer Background Color",
+      "description": "Background color of layers",
+      "comment": "Layer background color"
+    },
+    "LayerHeader": {
+      "label": "Layer Header Background Color",
+      "description": "Background color of layer header section",
+      "comment": "Layer background color (header section)"
+    },
+    "LayerHover": {
+      "label": "Layer Hover Background Color",
+      "description": "Background color of layers when mouse hovers",
+      "comment": "Layer background color (on mouse hover)"
+    },
+    "LayerDisable": {
+      "label": "Layer Disable Background Color",
+      "description": "Background color of layers when hidden",
+      "comment": "Layer background color (hidden)"
+    },
+    "LayerRange": {
+      "label": "Layer Range Background Color",
+      "description": "Background color of layer range",
+      "comment": "Layer range background color"
+    },
+    "LayerRangeFrame": {
+      "label": "Layer Range Border Color",
+      "description": "Border color of layer range",
+      "comment": "Layer range border color"
+    },
+    "ObjectVideo": {
+      "label": "Video Object Color",
+      "description": "Color of video objects",
+      "comment": "Video object color"
+    },
+    "ObjectVideoSelect": {
+      "label": "Video Object Selected Color",
+      "description": "Color of video objects when selected",
+      "comment": "Video object color (selected)"
+    },
+    "ObjectAudio": {
+      "label": "Audio Object Color",
+      "description": "Color of audio objects",
+      "comment": "Audio object color"
+    },
+    "ObjectAudioSelect": {
+      "label": "Audio Object Selected Color",
+      "description": "Color of audio objects when selected",
+      "comment": "Audio object color (selected)"
+    },
+    "ObjectControl": {
+      "label": "Control Object Color",
+      "description": "Color of control objects",
+      "comment": "Control object color"
+    },
+    "ObjectControlSelect": {
+      "label": "Control Object Selected Color",
+      "description": "Color of control objects when selected",
+      "comment": "Control object color (selected)"
+    },
+    "ObjectVideoFilter": {
+      "label": "Video Filter Object Color",
+      "description": "Color of video filter objects",
+      "comment": "Video filter object color"
+    },
+    "ObjectVideoFilterSelect": {
+      "label": "Video Filter Object Selected Color",
+      "description": "Color of video filter objects when selected",
+      "comment": "Video filter object color (selected)"
+    },
+    "ObjectAudioFilter": {
+      "label": "Audio Filter Object Color",
+      "description": "Color of audio filter objects",
+      "comment": "Audio filter object color"
+    },
+    "ObjectAudioFilterSelect": {
+      "label": "Audio Filter Object Selected Color",
+      "description": "Color of audio filter objects when selected",
+      "comment": "Audio filter object color (selected)"
+    },
+    "ObjectHover": {
+      "label": "Object Border Hover Color",
+      "description": "Border color of objects when mouse hovers",
+      "comment": "Object border color (on mouse hover)"
+    },
+    "ObjectFocus": {
+      "label": "Object Border Focus Color",
+      "description": "Border color of objects when focused",
+      "comment": "Object border color (focused)"
+    },
+    "ObjectSection": {
+      "label": "Object Midpoint Color",
+      "description": "Color of object midpoints",
+      "comment": "Object midpoint color"
+    },
+    "ObjectWaveform": {
+      "label": "Object Audio Waveform Color",
+      "description": "Color of object audio waveforms",
+      "comment": "Object audio waveform color"
+    },
+    "ClippingObject": {
+      "label": "Clipping Object Color (Lower)",
+      "description": "Color of clipping object lower part",
+      "comment": "Clipping object color (lower)"
+    },
+    "ClippingObjectMask": {
+      "label": "Clipping Object Visualization Color",
+      "description": "Color when clipping object is visualized",
+      "comment": "Clipping object visualization color"
+    },
+    "Anchor": {
+      "label": "Anchor Border Color",
+      "description": "Border color of anchors",
+      "comment": "Anchor border color"
+    },
+    "AnchorLine": {
+      "label": "Anchor Line Color",
+      "description": "Color of anchor lines",
+      "comment": "Anchor line color"
+    },
+    "AnchorIn": {
+      "label": "Anchor Border Color (Start)",
+      "description": "Border color of start anchors",
+      "comment": "Anchor border color (start)"
+    },
+    "AnchorOut": {
+      "label": "Anchor Border Color (End)",
+      "description": "Border color of end anchors",
+      "comment": "Anchor border color (end)"
+    },
+    "AnchorHover": {
+      "label": "Anchor Border Hover Color",
+      "description": "Border color of anchors when mouse hovers",
+      "comment": "Anchor border color (on mouse hover)"
+    },
+    "AnchorSelect": {
+      "label": "Anchor Border Selected Color",
+      "description": "Border color of anchors when selected",
+      "comment": "Anchor border color (selected)"
+    },
+    "AnchorEdge": {
+      "label": "Anchor Border Edge Color",
+      "description": "Edge color of anchor borders",
+      "comment": "Anchor border edge color"
+    },
+    "CenterGroup": {
+      "label": "Center Point Color (Group)",
+      "description": "Color of group center points",
+      "comment": "Center point color (group)"
+    },
+    "HandleX": {
+      "label": "X-Axis Handle Color",
+      "description": "Color of X-axis handles",
+      "comment": "X-axis handle color"
+    },
+    "HandleY": {
+      "label": "Y-Axis Handle Color",
+      "description": "Color of Y-axis handles",
+      "comment": "Y-axis handle color"
+    },
+    "HandleZ": {
+      "label": "Z-Axis Handle Color",
+      "description": "Color of Z-axis handles",
+      "comment": "Z-axis handle color"
+    },
+    "HandleXHover": {
+      "label": "X-Axis Handle Hover Color",
+      "description": "Color of X-axis handles when mouse hovers",
+      "comment": "X-axis handle hover color"
+    },
+    "HandleYHover": {
+      "label": "Y-Axis Handle Hover Color",
+      "description": "Color of Y-axis handles when mouse hovers",
+      "comment": "Y-axis handle hover color"
+    },
+    "HandleZHover": {
+      "label": "Z-Axis Handle Hover Color",
+      "description": "Color of Z-axis handles when mouse hovers",
+      "comment": "Z-axis handle hover color"
+    },
+    "OutsideDisplay": {
+      "label": "Outside Display Area Color",
+      "description": "Color of areas outside display region",
+      "comment": "Outside display area color"
+    }
+  },
+  "layout": {
+    "section_name": "Layout Settings",
+    "WindowSeparatorSize": {
+      "label": "Window Separator Width",
+      "description": "Width of separators between windows",
+      "comment": "Window separator size"
+    },
+    "ScrollBarSize": {
+      "label": "Scroll Bar Width",
+      "description": "Width of scroll bars",
+      "comment": "Scroll bar size"
+    },
+    "FooterHeight": {
+      "label": "Footer Height",
+      "description": "Height of footer information bar",
+      "comment": "Footer height"
+    },
+    "TitleHeaderHeight": {
+      "label": "Title Bar Height",
+      "description": "Height of title bar",
+      "comment": "Title header size"
+    },
+    "TimeGaugeHeight": {
+      "label": "Timeline Height",
+      "description": "Height of timeline area",
+      "comment": "Time gauge height"
+    },
+    "LayerHeight": {
+      "label": "Layer Height",
+      "description": "Height of layer entries",
+      "comment": "Layer height (layer editing)"
+    },
+    "LayerHeaderWidth": {
+      "label": "Layer Name Width",
+      "description": "Width of layer name column",
+      "comment": "Layer name width (layer editing)"
+    },
+    "SettingItemHeaderWidth": {
+      "label": "Setting Item Title Width",
+      "description": "Width of title column in settings panel",
+      "comment": "Setting item header width"
+    },
+    "SettingItemHeight": {
+      "label": "Setting Item Height",
+      "description": "Height of each item in settings panel",
+      "comment": "Setting item height"
+    },
+    "SettingItemMarginWidth": {
+      "label": "Setting Item Margin",
+      "description": "Margin between setting items",
+      "comment": "Setting item margin width"
+    },
+    "SettingHeaderHeight": {
+      "label": "Settings Panel Title Height",
+      "description": "Height of settings panel title bar",
+      "comment": "Setting header height"
+    },
+    "PlayerControlHeight": {
+      "label": "Player Control Bar Height",
+      "description": "Height of player control bar",
+      "comment": "Player control height"
+    },
+    "ExplorerHeaderHeight": {
+      "label": "Explorer Title Height",
+      "description": "Height of explorer title bar",
+      "comment": "Media browser header height"
+    },
+    "ExplorerWindowNum": {
+      "label": "Explorer Count",
+      "description": "Number of explorer windows",
+      "comment": "Media browser count"
+    },
+    "ListItemHeight": {
+      "label": "List Item Height",
+      "description": "Height of each item in lists",
+      "comment": "List selection item height"
+    }
+  },
+  "format": {
+    "section_name": "Format Settings",
+    "FooterLeft": {
+      "label": "Footer Left Format",
+      "description": "Format displayed on footer left side",
+      "comment": "Footer left display format"
+    },
+    "FooterRight": {
+      "label": "Footer Right Format",
+      "description": "Format displayed on footer right side",
+      "comment": "Footer right display format"
+    }
+  },
+  "config": {
+    "header_comment": "; Appearance settings\n; Use UTF-8 encoding\n; Can override settings in ProgramData\\aviutl2\\style.conf\n\n",
+    "section_header": "[{section}]\n",
+    "key_value": "{key}={value}\n"
+  },
+  "defaults": {
+    "save_filename": "style_new.conf"
+  }
+}
