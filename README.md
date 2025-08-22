@@ -5,7 +5,8 @@
 A modern web-based interface built with Gradio for intuitive editing and customization of AviUtl2 interface style settings. This tool replaces tedious text editing with a contemporary web interface, making style configuration accessible and efficient.
 
 ## Program Feasibility Demonstration
-[Program Feasibility Demonstration](test.png)
+![Program Feasibility Demonstration](test.png)
+![](UI.png)
 
 ## ✨ Features
 

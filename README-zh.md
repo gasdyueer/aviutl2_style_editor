@@ -2,8 +2,9 @@
 
 一个用于直观编辑 AviUtl2 `style.conf` 配置文件的 Web 界面工具，提供专门的控件进行参数调整。
 
-## 程序可行性展示
-[Program Feasibility Demonstration](test.png)
+## 程序可行性和UI展示
+![Program Feasibility Demonstration](test.png)
+![](UI.png)
 
 ## ✨ 功能特性
 
