@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "AviUtl2 スタイル設定エディター",
-    "description": "AviUtl2のstyle.confファイルを直感的に編集するためのWebインターフェースで、パラメータ調整用の専用コントロールを提供します"
+    "title": "AviUtl2 Style Configuration Editor",
+    "description": "AviUtl2 のstyle.conf ファイルを直感的に編集するための Web インターフェースで、パラメータ調整用の専用コントロールを提供します"
   },
   "file": {
     "load_success": "ファイルの読み込みに成功しました",
@@ -9,337 +9,337 @@
     "save_success": "ファイルが保存されました: {filename}",
     "save_failed": "保存に失敗しました: {error}",
     "select_file": "ファイルを選択してください",
-    "no_file_selected": "style.confファイルを選択してください"
+    "no_file_selected": "style.conf ファイルを選択してください"
   },
   "ui": {
     "tabs": {
-      "font": "📝 フォント設定",
-      "font_description": "### フォント設定 - インターフェースで使用するフォントを調整",
-      "color": "🎨 色設定",
-      "color_description": "### 色設定 - インターフェースのカラーテーマを調整",
-      "layout": "📐 レイアウト設定",
-      "layout_description": "### レイアウト設定 - インターフェースのサイズと間隔を調整",
-      "format": "⚙️ フォーマット設定",
-      "format_description": "### フォーマット設定 - 表示フォーマットテンプレートを調整"
+      "font": "📝 フォントの設定",
+      "font_description": "### フォントの設定 - インターフェースで使用するフォントを調整します",
+      "color": "🎨 色の設定",
+      "color_description": "### 色の設定 - インターフェースのカラーテーマを調整します",
+      "layout": "📐 レイアウトの設定",
+      "layout_description": "### レイアウトの設定 - インターフェースのサイズと間隔を調整します",
+      "format": "⚙ 形式の設定",
+      "format_description": "### 形式の設定 - 表示形式のテンプレートを調整します"
     },
     "buttons": {
       "load_file": "ファイルを読み込む",
       "save_config": "設定を保存"
     },
     "labels": {
-      "file_input": "style.confファイルを選択",
-      "save_filename": "保存ファイル名",
-      "status": "ステータス",
-      "save_status": "保存ステータス"
+      "file_input": "style.conf ファイルを選択",
+      "save_filename": "保存するファイル名",
+      "status": "状態",
+      "save_status": "保存状態"
     },
     "placeholders": {
       "save_filename": "保存するファイル名を入力",
-      "other_colors": "他の色パラメータをここに追加してください。1行に1つ、例：Border=909090"
+      "other_colors": "他の色パラメータをここに追加してください。1 行に 1 つ、例：Border=909090"
     }
   },
   "font": {
-    "section_name": "フォント設定",
-    "main_settings": "**主要フォント設定**",
-    "editor_settings": "**エディターフォント設定**",
+    "section_name": "フォントの設定",
+    "main_settings": "**メインフォントの設定**",
+    "editor_settings": "**エディターのフォント設定**",
     "DefaultFamily": {
-      "label": "デフォルトフォント",
-      "description": "インターフェースのデフォルトで使用するフォント名",
-      "comment": "標準フォント名"
+      "label": "既定のフォント",
+      "description": "インターフェースで使用する既定のフォント名",
+      "comment": "通常のフォント名"
     },
     "Control": {
-      "label": "コントロールフォントサイズ",
-      "description": "コントロールが表示するフォントサイズ",
-      "comment": "標準コントロールフォント"
+      "label": "制御のフォントサイズ",
+      "description": "制御を表示するフォントサイズ",
+      "comment": "標準の制御フォント"
     },
     "EditControl": {
       "label": "編集ボックスフォント",
       "description": "編集ボックスのフォントサイズとフォント名",
-      "comment": "編集コントロールフォント ※等幅フォント推奨"
+      "comment": "編集コントロールのフォント ※等幅フォントを推奨"
     },
     "PreviewTime": {
-      "label": "プレビュータイムフォントサイズ",
-      "description": "プレビューウィンドウの時間表示フォントサイズ",
-      "comment": "プレビュータイム表示フォント"
+      "label": "プレビュー時間のフォントサイズ",
+      "description": "プレビューウィンドウの時間表示のフォントサイズ",
+      "comment": "プレビュー時間表示のフォント"
     },
     "LayerObject": {
       "label": "レイヤーオブジェクトフォントサイズ",
       "description": "レイヤーとオブジェクト編集領域のフォントサイズ",
-      "comment": "レイヤー・オブジェクト編集部分フォント"
+      "comment": "レイヤーオブジェクト編集部分のフォント"
     },
     "TimeGauge": {
       "label": "タイムスケールフォントサイズ",
       "description": "タイムライン目盛り表示のフォントサイズ",
-      "comment": "フレームタイムゲージフォント"
+      "comment": "フレーム時間のゲージフォント"
     },
     "Footer": {
-      "label": "フッターフォントサイズ",
+      "label": "フッターのフォントサイズ",
       "description": "フッター情報バーのフォントサイズ",
-      "comment": "フッターフォント"
+      "comment": "フッターのフォント"
     },
     "TextEdit": {
-      "label": "テキスト編集フォント",
+      "label": "テキスト編集のフォント",
       "description": "テキストエディターのフォントサイズとフォント名",
-      "comment": "テキスト編集フォント ※等幅フォント推奨"
+      "comment": "テキスト編集のフォント ※等幅フォントを推奨"
     },
     "Log": {
-      "label": "ログフォント",
+      "label": "ログのフォント",
       "description": "ログウィンドウのフォントサイズとフォント名",
-      "comment": "ログフォント ※等幅フォント推奨"
+      "comment": "ログのフォント ※等幅フォントを推奨"
     }
   },
   "color": {
-    "section_name": "色設定",
-    "main_colors": "**主要色パラメータ**（カラーピッカーを使用）",
-    "other_colors": "**その他の色パラメータ**（複雑なパラメータと残りのパラメータを含む）",
+    "section_name": "色の設定",
+    "main_colors": "**メインパラメーター** (カラーピッカーを使用)",
+    "other_colors": "**その他のカラーパラメーター** (複雑なパラメーターと残りのパラメーターを含む)",
     "Background": {
-      "label": "背景色",
+      "label": "背景の色",
       "description": "メインインターフェースの背景色",
-      "comment": "デフォルト背景色"
+      "comment": "既定の背景色"
     },
     "WindowBorder": {
-      "label": "ウィンドウ境界色",
+      "label": "ウィンドウ境界の色",
       "description": "ウィンドウ境界の色",
-      "comment": "ウィンドウ境界色"
+      "comment": "ウィンドウ境界の色"
     },
     "WindowSeparator": {
-      "label": "ウィンドウセパレーター色",
+      "label": "ウィンドウセパレーターの色",
       "description": "ウィンドウ間のセパレーターの色",
-      "comment": "ウィンドウ間背景色"
+      "comment": "ウィンドウ間の背景色"
     },
     "Footer": {
-      "label": "フッター背景色",
+      "label": "フッターの背景色",
       "description": "フッター情報バーの背景色",
-      "comment": "フッター背景色"
+      "comment": "フッターの背景色"
     },
     "FooterProgress": {
-      "label": "プログレスバー色",
-      "description": "フッタープログレスバーの色設定（形式：色1,色2）",
-      "comment": "フッタープログレス色"
+      "label": "進捗バーの色",
+      "description": "フッター進捗バー色の設定 (形式：色 1,色 2)",
+      "comment": "フッターの進捗の色"
     },
     "TitleHeader": {
-      "label": "タイトルバー背景色",
+      "label": "タイトルバーの背景色",
       "description": "タイトルバーの背景色",
-      "comment": "タイトルヘッダー背景色"
+      "comment": "タイトルヘッダーの背景色"
     },
     "BorderSelect": {
-      "label": "選択境界色",
+      "label": "選択境界の色",
       "description": "選択状態の境界色",
-      "comment": "境界選択色"
+      "comment": "境界選択の色"
     },
     "Border": {
-      "label": "境界色",
+      "label": "境界の色",
       "description": "通常の境界の色",
-      "comment": "境界色"
+      "comment": "境界の色"
     },
     "BorderFocus": {
-      "label": "フォーカス境界色",
-      "description": "フォーカス時の境界色",
-      "comment": "境界フォーカス色"
+      "label": "フォーカス境界の色",
+      "description": "フォーカス時の境界の色",
+      "comment": "境界フォーカスの色"
     },
     "Text": {
-      "label": "テキスト色",
+      "label": "テキストの色",
       "description": "インターフェーステキストの色",
-      "comment": "テキスト色"
+      "comment": "テキストの色"
     },
     "TextDisable": {
-      "label": "無効テキスト色",
+      "label": "無効テキストの色",
       "description": "無効状態のテキストの色",
-      "comment": "テキスト無効色"
+      "comment": "テキスト無効の色"
     },
     "TextSelect": {
-      "label": "選択テキスト色",
+      "label": "選択テキストの色",
       "description": "選択状態のテキストの色",
-      "comment": "テキスト選択色"
+      "comment": "テキスト選択の色"
     },
     "ButtonBody": {
-      "label": "ボタン背景色",
+      "label": "ボタンの背景色",
       "description": "ボタンの背景色",
-      "comment": "ボタン背景色"
+      "comment": "ボタンの背景色"
     },
     "ButtonBodyHover": {
-      "label": "ボタンホバー色",
+      "label": "ボタンホバーの色",
       "description": "マウスホバー時のボタンの色",
-      "comment": "ボタン背景色(マウスホバー時)"
+      "comment": "ボタンの背景色 (マウスホバー時)"
     },
     "ButtonBodyPress": {
-      "label": "ボタンプレス色",
+      "label": "ボタン押下時の色",
       "description": "マウス押下時のボタンの色",
-      "comment": "ボタン背景色(マウス押下時)"
+      "comment": "ボタン背景の色 (マウス押下時)"
     },
     "ButtonBodyDisable": {
-      "label": "ボタン無効色",
+      "label": "ボタン無効の色",
       "description": "無効状態のボタンの色",
-      "comment": "ボタン背景色(無効時)"
+      "comment": "ボタン背景の色 (無効時)"
     },
     "ButtonBodySelect": {
-      "label": "ボタン選択色",
+      "label": "ボタン選択の色",
       "description": "選択状態のボタンの色",
-      "comment": "ボタン背景色(選択時)"
+      "comment": "ボタンの背景色 (選択時)"
     },
     "SliderCursor": {
-      "label": "スライダーカーソル色",
+      "label": "スライダーカーソルの色",
       "description": "スライダーカーソルの色",
-      "comment": "スライダーカーソル色"
+      "comment": "スライダーカーソルの色"
     },
     "TrackBarRange": {
-      "label": "トラックバーレンジ色",
+      "label": "トラックバーレンジの色",
       "description": "トラックバーレンジの色",
-      "comment": "トラックバーレンジ色"
+      "comment": "トラックバーレンジの色"
     },
     "ZoomGauge": {
-      "label": "ズームゲージ色",
+      "label": "ズームゲージの色",
       "description": "ズームゲージの色",
-      "comment": "ズームゲージ色"
+      "comment": "ズームゲージの色"
     },
     "ZoomGaugeHover": {
-      "label": "ズームゲージホバー色",
+      "label": "ズームゲージホバーの色",
       "description": "マウスホバー時のズームゲージの色",
-      "comment": "ズームゲージホバー色"
+      "comment": "ズームゲージホバーの色"
     },
     "ZoomGaugeOff": {
-      "label": "ズームゲージオフ色",
+      "label": "ズームゲージオフの色",
       "description": "ズームゲージがオフ時の色",
-      "comment": "ズームゲージオフ色"
+      "comment": "ズームゲージオフの色"
     },
     "ZoomGaugeOffHover": {
-      "label": "ズームゲージオフホバー色",
+      "label": "ズームゲージオフホバーの色",
       "description": "ズームゲージがオフでマウスホバー時の色",
-      "comment": "ズームゲージオフホバー色"
+      "comment": "ズームゲージオフホバーの色"
     },
     "FrameRangeSelect": {
-      "label": "フレーム選択範囲色",
+      "label": "フレーム選択範囲の色",
       "description": "フレーム選択範囲の色",
-      "comment": "フレーム選択範囲色"
+      "comment": "フレーム選択範囲の色"
     },
     "FrameRangeOutside": {
-      "label": "フレーム選択範囲外色",
+      "label": "フレーム選択範囲外の色",
       "description": "フレーム選択範囲外の色",
-      "comment": "フレーム選択範囲外色"
+      "comment": "フレーム選択範囲外の色"
     },
     "FrameCursor": {
-      "label": "フレームカーソル色",
+      "label": "フレームカーソルの色",
       "description": "フレームカーソルの色",
-      "comment": "フレームカーソル色"
+      "comment": "フレームカーソルの色"
     },
     "FrameCursorWide": {
-      "label": "フレームカーソルワイド色",
+      "label": "ワイドフレームカーソルの色",
       "description": "ワイドフレームカーソルの色",
-      "comment": "フレームカーソルワイド色"
+      "comment": "ワイドフレームカーソルの色"
     },
     "PlayerCursor": {
-      "label": "プレイヤーカーソル色",
-      "description": "プレイヤーカーソルの色",
-      "comment": "プレイヤーカーソル色"
+      "label": "プレーヤーカーソルの色",
+      "description": "プレーヤーカーソルの色",
+      "comment": "プレーヤーカーソルの色"
     },
     "GuideLine": {
-      "label": "ガイドライン色",
+      "label": "ガイドラインの色",
       "description": "ガイドラインの色",
-      "comment": "ガイドライン色"
+      "comment": "ガイドラインの色"
     },
     "Layer": {
-      "label": "レイヤー背景色",
+      "label": "レイヤーの背景色",
       "description": "レイヤーの背景色",
-      "comment": "レイヤー背景色"
+      "comment": "レイヤーの背景色"
     },
     "LayerHeader": {
-      "label": "レイヤーヘッダー背景色",
+      "label": "レイヤーヘッダーの背景色",
       "description": "レイヤーヘッダー部分の背景色",
-      "comment": "レイヤー背景色(ヘッダー部分)"
+      "comment": "レイヤーの背景色 (ヘッダー部分)"
     },
     "LayerHover": {
-      "label": "レイヤーホバー背景色",
+      "label": "レイヤーホバーの背景色",
       "description": "マウスホバー時のレイヤーの背景色",
-      "comment": "レイヤー背景色(マウスホバー時)"
+      "comment": "レイヤーの背景色 (マウスホバー時)"
     },
     "LayerDisable": {
-      "label": "レイヤー無効背景色",
+      "label": "レイヤー無効の背景色",
       "description": "非表示時のレイヤーの背景色",
-      "comment": "レイヤー背景色(非表示時)"
+      "comment": "レイヤーの背景色 (非表示時)"
     },
     "LayerRange": {
-      "label": "レイヤーレンジ背景色",
-      "description": "レイヤーレンジの背景色",
-      "comment": "レイヤーレンジ背景色"
+      "label": "レイヤー範囲の背景色",
+      "description": "レイヤー範囲の背景色",
+      "comment": "レイヤー範囲の背景色"
     },
     "LayerRangeFrame": {
-      "label": "レイヤーレンジ境界色",
-      "description": "レイヤーレンジの境界色",
-      "comment": "レイヤーレンジ境界色"
+      "label": "レイヤー範囲境界の色",
+      "description": "レイヤー範囲境界の色",
+      "comment": "レイヤー範囲境界の色"
     },
     "ObjectVideo": {
-      "label": "ビデオオブジェクト色",
+      "label": "ビデオオブジェクトの色",
       "description": "ビデオオブジェクトの色",
-      "comment": "ビデオオブジェクト色"
+      "comment": "ビデオオブジェクトの色"
     },
     "ObjectVideoSelect": {
-      "label": "ビデオオブジェクト選択色",
+      "label": "ビデオオブジェクト選択の色",
       "description": "選択時のビデオオブジェクトの色",
-      "comment": "ビデオオブジェクト色(選択時)"
+      "comment": "ビデオオブジェクトの色 (選択時)"
     },
     "ObjectAudio": {
-      "label": "オーディオオブジェクト色",
+      "label": "オーディオオブジェクトの色",
       "description": "オーディオオブジェクトの色",
-      "comment": "オーディオオブジェクト色"
+      "comment": "オーディオオブジェクトの色"
     },
     "ObjectAudioSelect": {
-      "label": "オーディオオブジェクト選択色",
+      "label": "オーディオオブジェクト選択の色",
       "description": "選択時のオーディオオブジェクトの色",
-      "comment": "オーディオオブジェクト色(選択時)"
+      "comment": "オーディオオブジェクトの色 (選択時)"
     },
     "ObjectControl": {
-      "label": "コントロールオブジェクト色",
+      "label": "コントロールオブジェクトの色",
       "description": "コントロールオブジェクトの色",
-      "comment": "コントロールオブジェクト色"
+      "comment": "コントロールオブジェクトの色"
     },
     "ObjectControlSelect": {
-      "label": "コントロールオブジェクト選択色",
+      "label": "コントロールオブジェクト選択の色",
       "description": "選択時のコントロールオブジェクトの色",
-      "comment": "コントロールオブジェクト色(選択時)"
+      "comment": "コントロールオブジェクトの色 (選択時)"
     },
     "ObjectVideoFilter": {
-      "label": "ビデオフィルターオブジェクト色",
+      "label": "ビデオフィルターオブジェクトの色",
       "description": "ビデオフィルターオブジェクトの色",
-      "comment": "ビデオフィルターオブジェクト色"
+      "comment": "ビデオフィルターオブジェクトの色"
     },
     "ObjectVideoFilterSelect": {
-      "label": "ビデオフィルターオブジェクト選択色",
+      "label": "ビデオフィルターオブジェクト選択の色",
       "description": "選択時のビデオフィルターオブジェクトの色",
-      "comment": "ビデオフィルターオブジェクト色(選択時)"
+      "comment": "ビデオフィルターオブジェクトの色 (選択時)"
     },
     "ObjectAudioFilter": {
-      "label": "オーディオフィルターオブジェクト色",
+      "label": "オーディオフィルターオブジェクトの色",
       "description": "オーディオフィルターオブジェクトの色",
-      "comment": "オーディオフィルターオブジェクト色"
+      "comment": "オーディオフィルターオブジェクトの色"
     },
     "ObjectAudioFilterSelect": {
-      "label": "オーディオフィルターオブジェクト選択色",
+      "label": "オーディオフィルターオブジェクト選択の色",
       "description": "選択時のオーディオフィルターオブジェクトの色",
-      "comment": "オーディオフィルターオブジェクト色(選択時)"
+      "comment": "オーディオフィルターオブジェクトの色 (選択時)"
     },
     "ObjectHover": {
-      "label": "オブジェクト境界ホバー色",
+      "label": "オブジェクト境界ホバーの色",
       "description": "マウスホバー時のオブジェクト境界色",
-      "comment": "オブジェクト境界色(マウスホバー時)"
+      "comment": "オブジェクト境界の色 (マウスホバー時)"
     },
     "ObjectFocus": {
-      "label": "オブジェクト境界フォーカス色",
-      "description": "フォーカス時のオブジェクト境界色",
-      "comment": "オブジェクト境界色(フォーカス時)"
+      "label": "オブジェクト境界フォーカスの色",
+      "description": "フォーカス時のオブジェクト境界の色",
+      "comment": "オブジェクト境界の色 (フォーカス時)"
     },
     "ObjectSection": {
-      "label": "オブジェクト中点色",
+      "label": "オブジェクト中点の色",
       "description": "オブジェクト中点の色",
-      "comment": "オブジェクト中点色"
+      "comment": "オブジェクト中点の色"
     },
     "ObjectWaveform": {
-      "label": "オブジェクトオーディオ波形色",
+      "label": "オブジェクトオーディオ波形の色",
       "description": "オブジェクトオーディオ波形の色",
-      "comment": "オブジェクトオーディオ波形色"
+      "comment": "オブジェクトオーディオ波形の色"
     },
     "ClippingObject": {
-      "label": "クリッピングオブジェクト色(下部)",
+      "label": "クリッピングオブジェクトの色 (下部)",
       "description": "クリッピングオブジェクト下部の色",
-      "comment": "クリッピングオブジェクト色(下部)"
+      "comment": "クリッピングオブジェクトの色 (下部)"
     },
     "ClippingObjectMask": {
       "label": "クリッピングオブジェクト可視化色",
@@ -490,9 +490,9 @@
       "comment": "メディアブラウザーヘッダー高さ"
     },
     "ExplorerWindowNum": {
-      "label": "エクスプローラー数",
+      "label": "メディアエクスプローラーの数",
       "description": "エクスプローラーウィンドウの数",
-      "comment": "メディアブラウザー数"
+      "comment": "メディアエクスプローラーの数"
     },
     "ListItemHeight": {
       "label": "リスト項目高さ",
@@ -501,11 +501,11 @@
     }
   },
   "format": {
-    "section_name": "フォーマット設定",
+    "section_name": "形式の設定",
     "FooterLeft": {
-      "label": "フッター左側フォーマット",
-      "description": "フッター左側に表示されるフォーマット",
-      "comment": "フッター左側表示フォーマット"
+      "label": "フッター左側の形式",
+      "description": "フッター左側に表示される形式",
+      "comment": "フッター左側表示の形式"
     },
     "FooterRight": {
       "label": "フッター右側フォーマット",
@@ -514,7 +514,7 @@
     }
   },
   "config": {
-    "header_comment": "; 外観設定\n; UTF-8エンコーディングを使用\n; ProgramData\\aviutl2\\style.confで設定を上書き可能\n\n",
+    "header_comment": "; 外観設定\n; UTF-8 エンコーディングを使用\n; ProgramData\\aviutl2\\style.conf で設定を上書きできます。\n\n",
     "section_header": "[{section}]\n",
     "key_value": "{key}={value}\n"
   },
